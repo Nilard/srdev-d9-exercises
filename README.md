@@ -28,5 +28,5 @@ _note: A sample administrative user has been added to the database already:_
 
 This project contains two custom modules, each housing a README that contains the instructions for each exercise.
 
-- [Exercise 1: Display a list of users from an API on the homepage](./web/modules/custom/exercise1/README.md)\
+- [Exercise 1: Display a list of users from an API on the homepage](./web/modules/custom/exercise1/README.md)
 - [Exercise 2: Create a paywall effect for the `article` content type](./web/modules/custom/exercise2/README.md)
