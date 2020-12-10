@@ -1,0 +1,16 @@
+name: code
+recipe: drupal9
+config:
+  php: '7.4'
+  via: nginx
+  webroot: web
+  xdebug: false
+  composer_version: '2.0.8'
+services:
+  database:
+    portforward: 3307
+tooling:
+  drush:
+    service: appserver
+    env:
+      DRUSH_OPTIONS_URI: "https://code.lndo.site"
