@@ -1,5 +1,5 @@
 # Sr. Drupal Developer Code Exercises
-These exercises are designed to asses your Drupal knowledge and see how you solve problems. Please don't spend more than three hours on it, and if you have trouble completing it in that time don't stress about it - we don't expect it all to be completed. Work in progress code is totally fine, as long as the direction can be explained during the interview. If you'd prefer to spend all the time on only one of the exercises and flesh it out more, that is also fine.
+These exercises are designed to assess your Drupal knowledge and see how you solve problems. Please don't spend more than three hours on it, and if you have trouble completing it in that time don't stress about it - we don't expect it all to be completed. Work in progress code is totally fine, as long as the direction can be explained during the interview. If you'd prefer to spend all the time on only one of the exercises and flesh it out more, that is also fine.
 
 _Note: The exercises are designed in the form of client requests, but in reality we would never expect requests of these types to be completed in the allotted three hours for this exercise :-)_
 
