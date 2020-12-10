@@ -1,4 +1,4 @@
-#Task [EXERCISE-1]
+# Task [EXERCISE-1]
 ### Ticket Description:
 Hello Last Call Media! We need display the list of users returned from this api (https://deelay.me/3000/https://jsonplaceholder.typicode.com/users) in a table on our homepage. It can appear anywhere on the homepage, we don't care that much about the presentation. Our only requirement is that it appears in a `<table>` and shows the following information for each user:
 * `name`
