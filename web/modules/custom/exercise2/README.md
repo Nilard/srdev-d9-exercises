@@ -1,4 +1,4 @@
-#Task [EXERCISE-2]
+# Task [EXERCISE-2]
 ### Ticket Description:
 Greetings, Last Call Media! We have recently hired a new writing team, and as a result our content is really amazing! In fact, it's so amazing that we want to institute a paywall for some `article` nodes that we are publishing.
 
