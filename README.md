@@ -3,8 +3,6 @@ These exercises are designed to asses your Drupal knowledge and see how you solv
 
 _Note: The exercises are designed in the form of client requests, but in reality we would never expect requests of these types to be completed in the allotted three hours for this exercise :-)_
 
----
-
 ## Instructions
 
 - Read the exercises below
@@ -12,8 +10,6 @@ _Note: The exercises are designed in the form of client requests, but in reality
   -  Use the setup instructions below to run the site. Or, if you prefer you can use your own infrastructure.
 - Push your work up in a new, _private_ repository in your own GitHub account.
 - Give the user [`lastcall-automation`](https://github.com/lastcall-automation) read access to your repository
-
----
 
 ## Setup instructions
 1. If you don't have it already, install [Lando](https://lando.dev/)
@@ -28,11 +24,9 @@ _note: A sample administrative user has been added to the database already:_
 - username: `root`
 - password: `root`
 
----
-
 ## Exercises
 
 This project contains two custom modules, each housing a README that contains the instructions for each exercise.
 
-[Exercise 1: Display a list of users from an API on the homepage](./web/modules/custom/exercise1/README.md)\
-[Exercise 2: Create a paywall effect for the `article` content type](./web/modules/custom/exercise2/README.md)
+- [Exercise 1: Display a list of users from an API on the homepage](./web/modules/custom/exercise1/README.md)\
+- [Exercise 2: Create a paywall effect for the `article` content type](./web/modules/custom/exercise2/README.md)
