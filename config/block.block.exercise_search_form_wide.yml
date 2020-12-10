@@ -1,0 +1,23 @@
+uuid: 57cd1148-5fb8-4386-8481-cf814365344f
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - exercise
+_core:
+  default_config_hash: kF9mVmsseaqxC_a3r0oTNT2MOdiEdr9-6lMUfIa18eI
+id: exercise_search_form_wide
+theme: exercise
+region: secondary_menu
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  provider: search
+  label_display: '0'
+  page_id: ''
+visibility: {  }

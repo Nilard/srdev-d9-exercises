@@ -1,0 +1,39 @@
+uuid: d27d05ce-fa62-4045-b1f0-9c4de89e4b0d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.article.body
+    - field.field.node.article.field_is_premium
+    - node.type.article
+  module:
+    - text
+    - user
+id: node.article.default
+targetEntityType: node
+bundle: article
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_is_premium:
+    type: boolean
+    weight: 0
+    region: content
+    label: above
+    settings:
+      format: enabled-disabled
+      format_custom_true: ''
+      format_custom_false: ''
+    third_party_settings: {  }
+  links:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

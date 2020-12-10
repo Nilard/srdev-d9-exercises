@@ -1,0 +1,41 @@
+uuid: ae3b4b8d-f2bf-477b-b1f3-5e8008caa3f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.article.body
+    - field.field.node.article.field_is_premium
+    - node.type.article
+  module:
+    - text
+    - user
+id: node.article.teaser
+targetEntityType: node
+bundle: article
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 1
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  field_is_premium:
+    type: boolean
+    weight: 0
+    region: content
+    label: inline
+    settings:
+      format: enabled-disabled
+      format_custom_true: ''
+      format_custom_false: ''
+    third_party_settings: {  }
+  links:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

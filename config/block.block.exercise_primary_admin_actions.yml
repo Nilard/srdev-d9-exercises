@@ -1,0 +1,20 @@
+uuid: 20b22c57-9ea6-4501-8e7f-400fe1977e55
+langcode: en
+status: true
+dependencies:
+  theme:
+    - exercise
+_core:
+  default_config_hash: sBMSSrWtP58IZaz1i3-MJ9yq_y32w1nc7N5DZJmt-4M
+id: exercise_primary_admin_actions
+theme: exercise
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

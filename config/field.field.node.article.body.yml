@@ -1,0 +1,23 @@
+uuid: 89f88135-780c-4cee-b6dc-ab1364a6ab1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.article
+  module:
+    - text
+id: node.article.body
+field_name: body
+entity_type: node
+bundle: article
+label: Body
+description: 'The summary will show for users without the `view full article content` permission. Users with the `view full article content` permission will see the full body content when viewing the full node'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: true
+field_type: text_with_summary

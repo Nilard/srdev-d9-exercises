@@ -1,0 +1,23 @@
+uuid: f1b7e955-6123-4eb1-b657-12f46bd05b66
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_is_premium
+    - node.type.article
+id: node.article.field_is_premium
+field_name: field_is_premium
+entity_type: node
+bundle: article
+label: Premium
+description: 'If this is checked, users will be required to have the `view full article content` permission to view the full body content when viewing the full node. Otherwise, the users will see the summary - even when the user views the full display.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,22 @@
+uuid: f7701994-4d34-4202-8006-a95c09ddf482
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - exercise
+_core:
+  default_config_hash: BL6Gcw5Us0zai1ADadlNYLxlEblMedc_3C3lF0PjtCE
+id: exercise_content
+theme: exercise
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

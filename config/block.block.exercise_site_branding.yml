@@ -1,0 +1,25 @@
+uuid: b6f0f878-1921-4f3c-9df1-7d35ad05af29
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - exercise
+_core:
+  default_config_hash: sYjScJ6uW1UvGZ-G3AtTcZmPoOiQJtndHqamm8FAFgU
+id: exercise_site_branding
+theme: exercise
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

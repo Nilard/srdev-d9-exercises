@@ -1,0 +1,22 @@
+uuid: 67fc08f1-6687-4c67-be5d-8b532a2cd31c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - exercise
+_core:
+  default_config_hash: ygYOxNV388KKajE2oZsiM9hejoed0gu5WeXcLR_zfzM
+id: exercise_powered
+theme: exercise
+region: sidebar_first
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }
