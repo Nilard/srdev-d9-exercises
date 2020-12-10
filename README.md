@@ -14,7 +14,8 @@ _Note: The exercises are designed in the form of client requests, but in reality
 ## Setup instructions
 1. If you don't have it already, install [Lando](https://lando.dev/)
 2. Navigate to the project on the command line and run `lando start`
-    - This will make a Drupal 9 site available at [`https://code.lndo.site`](https://code.lndo.site)
+3. Install php dependencies (`lando composer install`)
+    - After this, there should be a functioning Drupal 9 site available at [`https://code.lndo.site`](https://code.lndo.site) with no database
 3. Import the database, so sample users and content are available
     - Run `lando db-import exercise.sql.gz` from the project root
 4. You can interact with the site using the `lando` cli tool.
