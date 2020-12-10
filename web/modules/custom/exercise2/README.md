@@ -14,7 +14,7 @@ Our requirements are:
 - A standard user who does **not** have this new role/permission exists with these credentials:
   - username: `standard_user`
   - password: `standard_user`
-- a premium user who **does** have this new role/permission exists with these credentials:
+- a premium user who **does** have this new role exists with these credentials:
   - username: `premium_user`
   - password: `premium_user`
 
