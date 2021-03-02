@@ -1,0 +1,25 @@
+uuid: c1033554-dd80-46c1-817b-65feb75afb96
+langcode: en
+status: true
+dependencies:
+  module:
+    - exercise1
+    - system
+  theme:
+    - exercise
+id: exercise1_block
+theme: exercise
+region: content
+weight: 0
+provider: null
+plugin: exercise1_block
+settings:
+  id: exercise1_block
+  label: 'Exercise 1'
+  provider: exercise1
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
