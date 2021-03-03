@@ -1,3 +1,12 @@
+# Please pay attention!
+
+To view the results of the exercises please run the following commands after setting up the environment and fetching changes:
+```
+drush cim -y
+drush cron
+drush cr
+```
+
 # Sr. Drupal Developer Code Exercises
 These exercises are designed to assess your Drupal knowledge and see how you solve problems. Please don't spend more than three hours on it, and if you have trouble completing it in that time don't stress about it - we don't expect it all to be completed. Work in progress code is totally fine, as long as the direction can be explained during the interview. If you'd prefer to spend all the time on only one of the exercises and flesh it out more, that is also fine.
 
