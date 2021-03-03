@@ -763,6 +763,11 @@ $settings['entity_update_backup'] = TRUE;
 $settings['migrate_node_migrate_type_classic'] = FALSE;
 
 /**
+ * Set the render cache.
+ */
+$settings['cache']['bins']['render'] = 'cache.backend.memory';
+
+/**
  * Load local development override configuration, if available.
  *
  * Create a settings.local.php file to override variables on secondary (staging,

@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Exercise 2 module.
+ */
+
+/**
+ * Implements template_preprocess_field().
+ */
+function exercise2_preprocess_field(&$variables, $hook) {
+  if ($variables['element']['#field_name'] == 'body' && $variables['element']['#view_mode'] == 'full') {
+    // Check if the article is premium and if the current user has access to it and replace body with summary if not.
+    if ($variables['element']['#object']->field_is_premium->value && !\Drupal::currentUser()->hasPermission('view full premium content')) {
+      \Drupal::messenger()->addMessage(t('Full content is only available with a premium account.'));
+      foreach ($variables['items'] as $delta => $item) {
+        $variables['items'][$delta]['content']['#text'] = $variables['element']['#items'][$delta]->summary;
+      }
+    }
+  }
+}
