@@ -12,9 +12,6 @@
  * Implements hook_cron().
  */
 function exercise1_cron() {
-  // Periodically fetches the list of users from JSON API and puts to Drupal State API.
-  \Drupal::state()->set(
-    'exercise1.users',
-    json_decode(file_get_contents('https://deelay.me/5000/https://jsonplaceholder.typicode.com/users'))
-  );
+  // Fetch the list of users from provided JSON API URL and put it to Drupal State API.
+  \Drupal::state()->set('exercise1.users', json_decode(file_get_contents('https://deelay.me/5000/https://jsonplaceholder.typicode.com/users')));
 }
