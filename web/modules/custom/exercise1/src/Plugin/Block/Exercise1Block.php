@@ -18,13 +18,13 @@ class Exercise1Block extends BlockBase {
    * {@inheritdoc}
    */
   public function build() {
-    // Gets previously fetched list of users.
+    // Get previously fetched list of users.
     $users = \Drupal::state()->get('exercise1.users', []);
 
     if (!empty($users)) {
       $rows = [];
 
-      // Converts list of users to tables rows.
+      // Convert list of users to tables rows.
       foreach ($users as $user) {
         $rows[] = [
           $user->name,
@@ -35,7 +35,7 @@ class Exercise1Block extends BlockBase {
         ];
       }
 
-      // Renders table.
+      // Render table.
       return [
         '#theme' => 'table',
         '#header' => [
@@ -54,12 +54,12 @@ class Exercise1Block extends BlockBase {
       ];
     }
     else {
-      // Displays a message to admin with instructions how to enable this block.
+      // Display a message to admin with instructions how to enable this block.
       if (\Drupal::currentUser()->hasPermission('administer site configuration')) {
         \Drupal::messenger()->addMessage($this->t('Please run cron to fetch list of users.'));
       }
-
-      return [];
     }
+    
+    return [];
   }
 }
